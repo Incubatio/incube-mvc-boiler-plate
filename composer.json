@@ -1,0 +1,23 @@
+{
+    "name": "incube/mvc-boiler-plate",
+    "description": "Incube MVC Boiler Plate",
+    "type":"application",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Nicolas Morel",
+            "email": "incube@incubatio.org"
+        }
+    ],
+    "config": {
+        "vendor-dir":"pr/vendor",
+        "bin-dir":"pr/bin"
+    },
+    "require": {
+        "incube/base": "dev-master",
+        "incube/event": "dev-master",
+        "incube/mvc": "dev-master",
+        "incube/compiler": "dev-master",
+        "incube/web": "dev-master"
+    }
+}
